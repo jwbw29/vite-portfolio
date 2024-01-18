@@ -128,7 +128,7 @@
 }
 
 .icon:hover {
-  filter: drop-shadow(0 0 2rem #3f96fa);
+  filter: drop-shadow(0 0 1rem #3f96fa);
 }
 
 a:visited {
