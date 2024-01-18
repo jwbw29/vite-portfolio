@@ -18,6 +18,7 @@ export default function LandingPage() {
           </Link>
           {/* TODO This will be a link to a pdf (need to look in to this) */}
           <a
+            id="resume"
             href={my_resume}
             alt="justin-byrd-resume"
             target="_blank"

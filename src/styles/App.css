@@ -97,6 +97,27 @@
   filter: drop-shadow(0 0 2rem #3f96fa);
 }
 
+#resume {
+  display: inline-block;
+  margin: 0 1em;
+  font-size: 1.5rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  padding-right: 7px;
+  padding-bottom: 2px;
+  filter: drop-shadow(0 0 2em #125cb3);
+  text-decoration: none;
+}
+
+#resume:hover {
+  color: #48adff;
+  border-bottom: 1px solid #48adff;
+  border-right: 1px solid #48adff;
+  filter: drop-shadow(0 0 2rem #3f96fa);
+}
+
 .socials {
   display: flex;
   flex-direction: row;
