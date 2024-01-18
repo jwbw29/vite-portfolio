@@ -77,6 +77,18 @@
   filter: drop-shadow(0 0 2rem #3f96fa);
 }
 
+.projects-page h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Red Hat Display", sans-serif;
+  color: rgb(72, 173, 255);
+  cursor: default;
+  filter: drop-shadow(0 0 2rem #125cb3);
+}
+.projects-page h1:hover {
+  filter: drop-shadow(0 0 2rem #3f96fa);
+}
+
 .nav-items h3 {
   display: inline-block;
   margin: 0 1em;
