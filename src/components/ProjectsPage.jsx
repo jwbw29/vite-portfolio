@@ -7,7 +7,7 @@ export default function ProjectsPage() {
       <Header />
       <div className="project-container">
         <div className="single-project">
-          <h2>Asylum Office Grant Rate Tracker</h2>
+          <h2>Pizza Form</h2>
           <p>Image of Project here</p>
           <div className="code-links">
             {" "}
@@ -27,7 +27,7 @@ export default function ProjectsPage() {
         </div>
 
         <div className="single-project">
-          <h2>Project 3</h2>
+          <h2>RoboFriends</h2>
           <p>Image of Project here</p>
           <div className="code-links">
             {" "}
@@ -37,7 +37,7 @@ export default function ProjectsPage() {
         </div>
 
         <div className="single-project">
-          <h2>Project 4</h2>
+          <h2>User Onboarding</h2>
           <p>Image of Project here</p>
           <div className="code-links">
             {" "}
