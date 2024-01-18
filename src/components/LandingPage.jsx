@@ -1,16 +1,12 @@
-import logo from "../assets/jb-logo.png";
 import "../styles/App.css";
 import { Link } from "react-router-dom";
 import Socials from "./Socials";
+import Header from "./Header";
 
 export default function LandingPage() {
   return (
     <div className="App">
-      <div className="header">
-        {" "}
-        <img src={logo} alt="logo" className="logo" />
-        <button className="email-button">Contact Me</button>
-      </div>
+      <Header />
       <div className="main-content">
         <h1>justin_byrd</h1>
         <div className="nav-items">

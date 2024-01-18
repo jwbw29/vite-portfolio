@@ -79,12 +79,17 @@
   filter: drop-shadow(0 0 2rem #3f96fa);
 }
 
-a {
-  font-weight: 500;
-  text-decoration: inherit;
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10em;
+  width: 400px;
 }
-a:hover {
-  color: #48adff;
+
+.icon:hover {
+  filter: drop-shadow(0 0 2rem #3f96fa);
 }
 
 a:visited {
