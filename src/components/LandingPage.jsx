@@ -4,6 +4,8 @@ import Socials from "./Socials";
 import Header from "./Header";
 
 export default function LandingPage() {
+  const my_resume = "/Justin Byrd - Full Stack Web Developer Resume.pdf";
+
   return (
     <div className="App">
       <Header />
@@ -15,7 +17,14 @@ export default function LandingPage() {
             <h3>Projects</h3>
           </Link>
           {/* TODO This will be a link to a pdf (need to look in to this) */}
-          <h3>Resume</h3>
+          <a
+            href={my_resume}
+            alt="justin-byrd-resume"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </div>
       </div>
       <Socials />
