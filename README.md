@@ -8,7 +8,7 @@ This is my portfolio website. I built this site to more concisely display my pro
 - Resume
 - Social Links
 
-## 💻 Tech Used
+## 💻 Tech
 
 - Vite + React
 

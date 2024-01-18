@@ -1,6 +1,7 @@
 import logo from "../assets/jb-logo.png";
 import "../styles/App.css";
 import { Link } from "react-router-dom";
+import Socials from "./Socials";
 
 export default function LandingPage() {
   return (
@@ -21,14 +22,7 @@ export default function LandingPage() {
           <h3>Resume</h3>
         </div>
       </div>
-      <div className="socials">
-        {/* TODO Believe these will be some sort of <a> tag / href */}
-        <p>LinkedIn</p>
-        <p>GitHub</p>
-        <p>Facebook</p>
-        <p>Instagram</p>
-        <p>X</p>
-      </div>
+      <Socials />
     </div>
   );
 }
