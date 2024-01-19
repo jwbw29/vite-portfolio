@@ -1,7 +1,8 @@
 import Header from "./Header";
 import "../styles/ProjectsPage.css";
-import pizzaGif from "../assets/btpizza.gif";
-import roboGif from "../assets/robofriends.gif";
+import pizzaGif from "../assets/bt-pizza/btpizza.gif";
+import roboGif from "../assets/robofriends/robofriends.gif";
+import onboardingGif from "../assets/user-onboarding/user-onboarding.gif";
 
 export default function ProjectsPage() {
   return (
@@ -42,7 +43,7 @@ export default function ProjectsPage() {
 
           <div className="single-project">
             <h2>User Onboarding</h2>
-            <p>Image of Project here</p>
+            <img src={onboardingGif} alt="user-onboarding" />
             <div className="code-links">
               {" "}
               <p>Code</p>
