@@ -15,8 +15,12 @@ export default function ProjectsPage() {
             <img src={pizzaGif} alt="pizza-form" />
             <div className="code-links">
               {" "}
-              <p>Code</p>
-              <p>Live</p>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Repo
+              </a>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Live
+              </a>
             </div>
           </div>
 
@@ -26,8 +30,10 @@ export default function ProjectsPage() {
             <p>Image of Project here</p>
             <div className="code-links">
               {" "}
-              <p>Code</p>
-              <p>Live</p>
+              <a href="" target="_blank" rel="noopener noreferrer">Repo</a>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Live
+              </a>
             </div>
           </div> */}
 
@@ -36,8 +42,12 @@ export default function ProjectsPage() {
             <img src={roboGif} alt="robofriends" />
             <div className="code-links">
               {" "}
-              <p>Code</p>
-              <p>Live</p>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Repo
+              </a>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Live
+              </a>
             </div>
           </div>
 
@@ -46,8 +56,12 @@ export default function ProjectsPage() {
             <img src={onboardingGif} alt="user-onboarding" />
             <div className="code-links">
               {" "}
-              <p>Code</p>
-              <p>Live</p>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Repo
+              </a>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Live
+              </a>
             </div>
           </div>
         </div>

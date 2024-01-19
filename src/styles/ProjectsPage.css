@@ -26,6 +26,27 @@
   box-shadow: 0 0 2rem #125cb3;
 }
 
+.single-project:hover {
+  box-shadow: 0 0 2rem #3f96fa;
+}
+
+.single-project h2 {
+  font-size: 2rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  /* * This (below) might be too much */
+  padding-right: 0.5rem;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.single-project img {
+  width: 100%;
+  height: auto;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
 .code-links {
   display: flex;
   flex-direction: row;
@@ -34,4 +55,21 @@
   width: 80%;
   /* margin: 2em; */
   margin: 2em 2em 0 2em;
+}
+
+.code-links a {
+  display: inline-block;
+  /* margin: 0 1em; */
+  font-size: 1.25rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  padding-right: 2rem;
+  padding-bottom: 2px;
+  filter: drop-shadow(0 0 2em #125cb3);
+  text-decoration: none;
+}
+
+.code-links a:hover {
+  color: #48adff;
+  filter: drop-shadow(0 0 2rem #3f96fa);
 }
