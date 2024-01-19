@@ -15,10 +15,18 @@ export default function ProjectsPage() {
             <img src={pizzaGif} alt="pizza-form" />
             <div className="code-links">
               {" "}
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/jwbw29/PizzaForm"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Repo
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://pizza-form-brown.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live
               </a>
             </div>
@@ -42,10 +50,18 @@ export default function ProjectsPage() {
             <img src={roboGif} alt="robofriends" />
             <div className="code-links">
               {" "}
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/jwbw29/ztm-robot-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Repo
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://ztm-robot-app.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live
               </a>
             </div>
@@ -56,10 +72,18 @@ export default function ProjectsPage() {
             <img src={onboardingGif} alt="user-onboarding" />
             <div className="code-links">
               {" "}
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/jwbw29/user-onboarding"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Repo
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://user-onboarding-woad.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live
               </a>
             </div>
