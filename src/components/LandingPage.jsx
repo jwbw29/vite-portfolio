@@ -1,5 +1,6 @@
 import "../styles/App.css";
 import { Link } from "react-router-dom";
+import "../styles/LandingPage.css";
 import Socials from "./Socials";
 import Header from "./Header";
 
@@ -9,7 +10,7 @@ export default function LandingPage() {
   return (
     <div className="App">
       <Header />
-      <div className="main-content">
+      <div className="landing-page-main">
         <h1>justin_byrd</h1>
         <div className="nav-items">
           <Link to="/projects">

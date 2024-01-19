@@ -3,9 +3,9 @@ import "../styles/ProjectsPage.css";
 
 export default function ProjectsPage() {
   return (
-    <div className="projects-page">
+    <div className="App">
       <Header />
-      <div className="main">
+      <div className="projects-page-main">
         <div className="project-container">
           <div className="single-project">
             <h2>Pizza Form</h2>
