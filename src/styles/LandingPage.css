@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   width: 80%;
+  max-width: 1536px;
 }
 
 .landing-page-main h1 {

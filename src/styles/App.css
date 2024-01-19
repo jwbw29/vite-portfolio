@@ -17,12 +17,6 @@ a:visited {
   color: rgba(255, 255, 255, 0.87);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
   padding: 2em;
 }
