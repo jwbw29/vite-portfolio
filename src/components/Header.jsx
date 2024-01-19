@@ -1,4 +1,5 @@
 import logo from "../assets/jb-logo.png";
+import "../styles/Header.css";
 import { Link } from "react-router-dom";
 
 export default function Header() {
