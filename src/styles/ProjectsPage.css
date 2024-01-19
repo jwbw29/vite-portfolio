@@ -25,3 +25,13 @@
   background-color: #242424;
   box-shadow: 0 0 2rem #125cb3;
 }
+
+.code-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  /* margin: 2em; */
+  margin: 2em 2em 0 2em;
+}
