@@ -1,20 +1,95 @@
 import Header from "./Header";
+import "../styles/ProjectsPage.css";
+import pizzaGif from "../assets/bt-pizza/btpizza.gif";
+import roboGif from "../assets/robofriends/robofriends.gif";
+import onboardingGif from "../assets/user-onboarding/user-onboarding.gif";
 
 export default function ProjectsPage() {
   return (
-    <div className="projects-page">
+    <div className="App">
       <Header />
-      <h1>Coming Soon...</h1>
-      <div className="project-container"> </div>
+      <div className="projects-page-main">
+        <div className="project-container">
+          <div className="single-project">
+            <h2>Pizza Form</h2>
+            <img src={pizzaGif} alt="pizza-form" />
+            <div className="code-links">
+              {" "}
+              <a
+                href="https://github.com/jwbw29/PizzaForm"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Repo
+              </a>
+              <a
+                href="https://pizza-form-brown.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live
+              </a>
+            </div>
+          </div>
+
+          {/* !!!! Gotta figure out how to deploy this one - first attempt failed */}
+          {/* <div className="single-project">
+            <h2>Asylum Office Grant Rate Tracker</h2>
+            <p>Image of Project here</p>
+            <div className="code-links">
+              {" "}
+              <a href="" target="_blank" rel="noopener noreferrer">Repo</a>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Live
+              </a>
+            </div>
+          </div> */}
+
+          <div className="single-project">
+            <h2>RoboFriends</h2>
+            <img src={roboGif} alt="robofriends" />
+            <div className="code-links">
+              {" "}
+              <a
+                href="https://github.com/jwbw29/ztm-robot-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Repo
+              </a>
+              <a
+                href="https://ztm-robot-app.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live
+              </a>
+            </div>
+          </div>
+
+          <div className="single-project">
+            <h2>User Onboarding</h2>
+            <img src={onboardingGif} alt="user-onboarding" />
+            <div className="code-links">
+              {" "}
+              <a
+                href="https://github.com/jwbw29/user-onboarding"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Repo
+              </a>
+              <a
+                href="https://user-onboarding-woad.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
-}
-{
-  /* <h2>Project 1 Name</h2>
-<p>Image of Project here</p>
-<div className="code-links">
-  {" "}
-  <p>Code</p>
-  <p>Live</p>
-</div> */
 }
