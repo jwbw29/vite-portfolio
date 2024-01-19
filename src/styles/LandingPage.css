@@ -16,12 +16,6 @@
   filter: drop-shadow(0 0 2rem #125cb3);
 }
 
-@media screen and (max-width: 767px) {
-  .landing-page-main h1 {
-    font-size: 4rem; /* Adjust the font size for mobile devices */
-  }
-}
-
 .landing-page-main h1:hover {
   filter: drop-shadow(0 0 2rem #3f96fa);
 }
@@ -78,4 +72,82 @@
 
 .icon:hover {
   filter: drop-shadow(0 0 1rem #3f96fa);
+}
+
+@media screen and (max-width: 767px) {
+  /*//LANDING PAGE STYLES//*/
+  .landing-page-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .landing-page-main h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Red Hat Display", sans-serif;
+    color: rgb(72, 173, 255);
+    cursor: default;
+    filter: drop-shadow(0 0 2rem #125cb3);
+  }
+
+  .landing-page-main h1:hover {
+    filter: drop-shadow(0 0 2rem #3f96fa);
+  }
+
+  .nav-items h3 {
+    display: inline-block;
+    margin: 0 1em;
+    font-size: 1.5rem;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding-right: 7px;
+    padding-bottom: 2px;
+    filter: drop-shadow(0 0 2em #125cb3);
+  }
+
+  .nav-items h3:hover {
+    color: #48adff;
+    border-bottom: 1px solid #48adff;
+    border-right: 1px solid #48adff;
+    filter: drop-shadow(0 0 2rem #3f96fa);
+  }
+
+  #resume {
+    display: inline-block;
+    margin: 0 1em;
+    font-size: 1.5rem;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding-right: 7px;
+    padding-bottom: 2px;
+    filter: drop-shadow(0 0 2em #125cb3);
+    text-decoration: none;
+  }
+
+  #resume:hover {
+    color: #48adff;
+    border-bottom: 1px solid #48adff;
+    border-right: 1px solid #48adff;
+    filter: drop-shadow(0 0 2rem #3f96fa);
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10em;
+    width: 400px;
+  }
+
+  .icon:hover {
+    filter: drop-shadow(0 0 1rem #3f96fa);
+  }
 }
