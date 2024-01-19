@@ -3,8 +3,6 @@ import { SocialIcon } from "react-social-icons";
 export default function Socials() {
   return (
     <div className="socials">
-      {/* TODO Believe these will be some sort of <a> tag / href */}
-
       <span className="icon">
         <SocialIcon
           target="_blank"
