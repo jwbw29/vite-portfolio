@@ -9,6 +9,10 @@
   /* margin: 0; */
 }
 
+.nav-buttons {
+  margin-right: 1.5em;
+}
+
 .nav-buttons h3 {
   display: inline-block;
   /* margin: 0 1em; */
@@ -38,7 +42,7 @@
 .email-button {
   border-color: #48adff;
   filter: drop-shadow(0 0 2rem #125cb3);
-  margin-right: 2em;
+  /* margin-right: 2em; */
 }
 
 .email-button:hover {
