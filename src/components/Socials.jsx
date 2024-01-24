@@ -24,6 +24,9 @@ export default function Socials() {
       <span className="icon">
         <SocialIcon target="_blank" url="http://www.x.com/tweeter__byrd" />
       </span>
+      <span className="icon">
+        <SocialIcon target="_blank" url="http://www.youtube.com/jwbw29" />
+      </span>
     </div>
   );
 }
