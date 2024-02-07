@@ -3,6 +3,7 @@ import "../styles/ProjectsPage.css";
 import pizzaGif from "../assets/bt-pizza/btpizza.gif";
 import roboGif from "../assets/robofriends/robofriends.gif";
 import onboardingGif from "../assets/user-onboarding/user-onboarding.gif";
+import nasaPic from "../assets/nasa/thumbnail.png";
 
 export default function ProjectsPage() {
   return (
@@ -10,6 +11,27 @@ export default function ProjectsPage() {
       <Header />
       <div className="projects-page-main">
         <div className="project-container">
+          <div className="single-project">
+            <h2>Astrology Picture of the Day</h2>
+            <img src={nasaPic} alt="nasa project" />
+            <div className="code-links">
+              {" "}
+              <a
+                href="https://github.com/jwbw29/nasa-pic-of-the-day.git"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Repo
+              </a>
+              <a
+                href="https://nasa-pic-of-the-day.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live
+              </a>
+            </div>
+          </div>
           <div className="single-project">
             <h2>Pizza Form</h2>
             <img src={pizzaGif} alt="pizza-form" />
