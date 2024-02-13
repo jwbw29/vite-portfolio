@@ -1,4 +1,5 @@
 import Header from "./Header";
+import Footer from "./Footer";
 import "../styles/ProjectsPage.css";
 import pizzaGif from "../assets/bt-pizza/btpizza.gif";
 import roboGif from "../assets/robofriends/robofriends.gif";
@@ -112,6 +113,7 @@ export default function ProjectsPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
