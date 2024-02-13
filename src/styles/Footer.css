@@ -7,8 +7,11 @@
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.1rem;
 }
+p {
+  margin: 0;
+}
 
-span #dateUpdated {
+#dateUpdated {
   font-weight: 900;
   color: #48adff;
 }
