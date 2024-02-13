@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/LandingPage.css";
 import Socials from "./Socials";
 import Header from "./Header";
+import Footer from "./Footer";
 
 export default function LandingPage() {
   const my_resume = "/Justin Byrd - Full Stack Web Developer Resume.pdf";
@@ -29,6 +30,7 @@ export default function LandingPage() {
         </div>
       </div>
       <Socials />
+      <Footer />
     </div>
   );
 }
